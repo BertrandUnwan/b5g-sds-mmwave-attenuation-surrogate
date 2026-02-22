@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "b5g-sds-atten-surrogate"
+version = "0.1.0"
+description = "Physics-consistent surrogate model for dust-induced mmWave attenuation (28/38 GHz)"
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy",
+    "torch",
+    "joblib",
+    "scikit-learn"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

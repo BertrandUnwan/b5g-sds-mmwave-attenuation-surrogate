@@ -1,0 +1,50 @@
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.env/
+
+# =========================
+# Data (never commit datasets)
+# =========================
+data/
+*.nc
+*.nc4
+*.h5
+*.hdf5
+
+# =========================
+# Model artifacts (never commit trained weights)
+# =========================
+models/
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.onnx
+
+# =========================
+# Reports / generated figures
+# =========================
+reports/figures/
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+.vscode/
+
+# =========================
+# Temporary / local scripts
+# =========================
+temp.py
+testing.py

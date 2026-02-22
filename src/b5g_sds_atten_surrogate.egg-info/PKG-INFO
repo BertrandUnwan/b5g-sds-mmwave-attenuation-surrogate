@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: b5g-sds-atten-surrogate
-Version: 0.1.0
-Summary: Physics-consistent surrogate model for dust-induced mmWave attenuation (28/38 GHz)
-Requires-Python: >=3.10
-Requires-Dist: numpy
-Requires-Dist: torch
-Requires-Dist: joblib
-Requires-Dist: scikit-learn
